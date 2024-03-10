@@ -26,7 +26,7 @@ const cardData = computed(() => {
       <v-col cols="4">
         <v-select
           v-model="limitValue"
-          label="表示件数"
+          label="表示件数a"
           :items="['10', '50', '100', '200', '300', '400', '500', '600', '700', '800', '900', '1000']"
         ></v-select>
       </v-col>
